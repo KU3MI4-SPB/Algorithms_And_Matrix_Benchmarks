@@ -7,7 +7,7 @@ namespace RaceOfSorting
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет! Давайте сделаем тестирование...");
+            Console.WriteLine("Привет! Давайте проведем тестирование...");
             Console.WriteLine("Нажмите: \n(1) чтобы запустить тест Алгоритмов сортировки\n(2) чтобы запустить тест многопоточности");
 
             _ = int.TryParse(Console.ReadLine(), out int select);
